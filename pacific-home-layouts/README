@@ -1,0 +1,27 @@
+Do not use Foundation or Bootstrap (or any layout framework).
+Use HTML and Sass/Less/CSS.
+
+You do not need to implement the nav (it does not have to actually drop down for mobile).
+
+font-family: 'Muli', 'Helvetica Neue', sans-serif;
+text-transform: lowercase;
+
+------------------------------------------------
+
+
+Layout 1
+Max width of inner content is 1100px.
+
+Layout 2
+@1024px social media in nav disappears.
+
+Layout 3
+@900px "featured looks" disappears from nav
+@900px product grid drops to 3 columns.
+
+Layout 4
+@768px layout switches to mobile
+@768px product grid drops to 2 columns.
+
+Layout 5 & 6
+@635px product grid drops to 1 column.
